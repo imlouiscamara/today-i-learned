@@ -5,14 +5,14 @@
 # print("Hello " + name)
 
 # Fundamental Data Types
-int # integers
-float # floating point number
-bool
-str
-list
-tuple
-set
-dict
+# int # integers
+# float # floating point number
+# bool
+# str
+# list
+# tuple
+# set
+# dict
 
 # Classes -> custom types
 # SuperCar
@@ -75,9 +75,9 @@ dict
 
 # print(5 + 4 * 10 // 2) # 25
 
-int
-float
-complex
+# int
+# float
+# complex
 
 # print(bin(5))
 # print(int('0b101', 2))
@@ -212,3 +212,228 @@ complex
 
 # print(selfish)
 
+# str()
+# int()
+# print()
+# len()
+# print(len('hello'))
+# greet = 'hello'
+# print(greet[:])
+# print(greet[0:len(greet)])
+# .format
+
+# quote = 'to be or not to be'
+
+# print(quote.upper())
+# print(quote.capitalize())
+# print(quote.lower())
+# print(quote.find('be'))
+# print(quote.replace('be', 'me'))
+
+# print(quote)
+
+# quote2 = quote.replace('be', 'me')
+# print(quote2)
+
+#booleans
+# bool
+# True
+# False
+
+# name = 'tilou'
+# is_cool = False
+
+# is_cool = True
+
+# print(bool(0))
+# print(bool(1))
+# print(bool('True'))
+# print(bool(''))
+
+# name = 'Louis Camara'
+# age = 20
+# relationship_status = 'single'
+
+# relationship_status = 'it\'s complicated'
+
+# print(relationship_status)
+
+# exercise type conversion
+# birth_year = input('what year were you born?')
+# print(type(birth_year))
+# age = 2026 - int(birth_year)
+
+# print(f'your age is: {age}')
+
+
+# birth_year = input('what year were you born?')
+# print(type(birth_year))
+# age = 2026 - float(birth_year)
+
+# print(f'your age is: {age}')
+
+
+# birth_year = input('what year were you born?')
+# print(type(birth_year))
+# age = 2026 - bool(birth_year)
+
+# print(f'your age is: {age}')
+
+# a = 'Andrei'
+# is_cool = False #is cool flag
+
+# is_cool = True
+
+# print(bool('True'))
+
+# exercise password checker
+
+# username = input('what is your username? ')
+# password = input('what is your password? ')
+
+# password_length = len(password)
+# hidden_password = '*' * password_length
+
+# print(f'{username}, your password, {hidden_password}, is {password_length} characters long.')
+
+# list
+
+# li = [1,2,3,4,5]
+# li2 = ['a', 'b', 'c']
+# li3 = [1,2.5,'a', True]
+
+# amazon_cart = ['notebooks', 'sunglasses']
+# print(amazon_cart[0])
+# print(amazon_cart[1])
+# print(amazon_cart[2])
+
+# data structure
+
+# list slicing
+# amazon_cart = [
+#     'notebooks',
+#     'sunglasses',
+#     'toys',
+#     'grapes'
+# ]
+# print(amazon_cart[0:2])
+# print(amazon_cart[0::2])
+
+# amazon_cart[0] = 'laptop'
+# new_cart = amazon_cart[1:3]
+# new_cart = amazon_cart
+# new_cart = amazon_cart[:]
+# new_cart[0] = 'gum'
+# new_cart2 = amazon_cart[0:3]
+# print(new_cart)
+# print(new_cart2)
+# print(amazon_cart)
+
+# matrix
+# matrix = [
+#     [1,2,3],
+#     [2,4,6],
+#     [7,8,9]
+#     ]
+
+# matrix_x = [
+#     [1,5,1],
+#     [0,1,0],
+#     [1,0,1]
+# ]
+
+# print(matrix[0][1])
+
+# list methods
+# basket = [1,2,3,4,5]
+# print(len(basket))
+
+#adding
+# basket.append(100)
+# basket.insert(5, 100)
+# new_list = basket.extend([100])
+# basket.extend([100])
+# print(basket)
+# print(new_list) #returns None
+
+#removing
+# basket.pop() #index
+# basket.pop()
+# basket.pop(0)
+# basket.remove() #value
+# new_list = basket.pop(4)
+# new_list = basket.clear()
+# print(basket)
+# print(new_list)
+
+# basket = ['a','x','b','c','d','e','d']
+
+# print(basket.index('d', 0, 4))
+# print('d' in basket)
+# print('x' in basket)
+# print('i' in 'hi my name is ian')
+# print(basket.count('d'))
+# basket.sort()
+# new_basket = basket[:]
+# new_basket = basket.copy()
+# new_basket.sort()
+# basket.reverse()
+# print(basket)
+# print(len(basket))
+# print(new_basket)
+# print(sorted(basket))
+# print(basket[::-1])
+# print(basket)
+
+# print(list(range(1,100)))
+# print(list(range(100)))
+# print(list(range(101)))
+
+# sentence = ' '
+# new_sentence = ' '.join(['hi', 'my', 'name', 'is', 'JOJO'])
+
+# print(sentence)
+# print(new_sentence)
+
+# list unpacking
+# a,b,c = [1,2,3]
+# a,b,c, *other = [1,2,3,4,5,6,7,8,9]
+# a,b,c, *other, d = [1,2,3,4,5,6,7,8,9]
+# a,b,c = 1,2,3
+
+# print(a)
+# print(b)
+# print(c)
+# print(other)
+# print(d)
+
+# None
+# weapons = None
+# print(weapons)
+
+# Dictionary
+# dictionary = {'a': 1,'b': 2,'x': 3}
+dictionary = {
+    'a': [1,2,3],
+    'b': 'hello',
+    'x': True
+}
+my_list = [
+    {
+    'a': [1,2,3],
+    'b': 'hello',
+    'x': True
+    },
+    {
+    'a': [4,5,6],
+    'b': 'hello',
+    'x': True
+    }
+]
+
+print(dictionary)
+print(dictionary['a'])
+print(dictionary['a'][1])
+print(dictionary['b'])
+print(dictionary['x'])
+print(my_list[0]['a'][2])
