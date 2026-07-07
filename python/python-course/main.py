@@ -413,27 +413,148 @@
 
 # Dictionary
 # dictionary = {'a': 1,'b': 2,'x': 3}
-dictionary = {
-    'a': [1,2,3],
-    'b': 'hello',
-    'x': True
-}
-my_list = [
-    {
-    'a': [1,2,3],
-    'b': 'hello',
-    'x': True
-    },
-    {
-    'a': [4,5,6],
-    'b': 'hello',
-    'x': True
-    }
-]
+# dictionary = {
+#     'a': [1,2,3],
+#     'b': 'hello',
+#     'x': True
+# }
+# my_list = [
+#     {
+#     'a': [1,2,3],
+#     'b': 'hello',
+#     'x': True
+#     },
+#     {
+#     'a': [4,5,6],
+#     'b': 'hello',
+#     'x': True
+#     }
+# ]
 
-print(dictionary)
-print(dictionary['a'])
-print(dictionary['a'][1])
-print(dictionary['b'])
-print(dictionary['x'])
-print(my_list[0]['a'][2])
+# print(dictionary)
+# print(dictionary['a'])
+# print(dictionary['a'][1])
+# print(dictionary['b'])
+# print(dictionary['x'])
+# print(my_list[0]['a'][2])
+
+# dictionary = {
+#     'weapons': [1,2,3],
+#     'greeting': 'hello',
+#     'is_Magic': True
+# }
+
+# dictionary = {
+#     123: [1,2,3],
+#     '123': [1,2,3],
+#     '123': 'hello',
+#     True: 'hello',
+#     [100]: True,
+#     '[100]': True
+# }
+# [0] = 
+# print(dictionary[123])
+# print(dictionary['123'])
+# print(dictionary[True])
+# print(dictionary[100])
+# print(dictionary['[100]'])
+
+# user = {
+#     'basket': [1,2,3],
+#     'greet': 'hello',
+#     'age': 20
+# }
+
+# print(user['basket'])
+# print(user['age'])
+# print(user.get('age', 55))
+
+# user2 = dict(name='JohnJohn')
+# print(user2)
+
+# print('i' in 'hi')
+# print('basket' in user)
+# print('size' in user)
+# print('hello' in user.keys())
+# print('age' in user.keys())
+# print('age' in user.values())
+# print('hello' in user.values())
+# print(user.clear())
+# print(user.items())
+# print(user.clear())
+# user2 = user.copy()
+# print(user)
+# print(user.clear())
+# print(user2)
+
+# print(user.pop('age'))
+# print(user.popitem())
+# print(user.update({'age': 55}))
+# print(user.update({'ages': 55}))
+# print(user)
+
+# tuple
+# my_tuple = (1,2,3,4,5,5)
+# print(my_tuple[1])
+# print(5 in my_tuple)
+# user = {
+#     (1,2): [1,2,3],
+#     'greet': 'hello',
+#     'age': 20
+# }
+
+# print(user.items())
+# print(user[(1,2)])
+# new_tuple = my_tuple[1:2]
+# new_tuple = my_tuple[1:4]
+# x = my_tuple[0]
+# y = my_tuple[1]
+# x,y,z, *other = (1,2,3,4,5)
+
+# print(new_tuple)
+# print(x)
+# print(y)
+# print(z)
+# print(other)
+
+# print(my_tuple.count(5))
+# print(my_tuple.index(5))
+# print(len(my_tuple))
+
+# set
+# my_list = [1,2,3,4,5,5]
+
+# print(set(my_list))
+
+# my_set = {1,2,3,4,5,5}
+# new_set = my_set.copy()
+# my_set.clear()
+# my_set.add(100)
+# my_set.add(2)
+# print(my_set)
+# print(my_set[0])
+# print(1 in my_set)
+# print(len(my_set))
+# print(list(my_set))
+# print(list(new_set))
+# print(new_set)
+# print(my_set)
+
+# my_set = {1,2,3,4,5}
+# my_set = {1,2,3}
+# my_set = {4,5}
+# your_set = {4,5,6,7,8,9,10}
+
+# print(my_set.difference(your_set))
+# print(your_set.difference(my_set))
+# print(my_set.discard(5))
+# print(my_set)
+# print(my_set.difference_update(your_set))
+# print(my_set)
+# print(my_set.intersection(your_set))
+# print(my_set & your_set)
+# print(my_set.isdisjoint(your_set))
+# print(my_set.issubset(your_set))
+# print(your_set.issuperset(my_set))
+# print(my_set.union(your_set))
+# print(my_set | your_set)
